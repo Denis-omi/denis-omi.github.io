@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700&family=Archivo:wght@400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;background:#050506;}
+  a{text-decoration:none;color:inherit;}
+  a:hover{opacity:.85;}
+  @keyframes pulseGlow{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(198,255,46,.5);}50%{transform:scale(1.05);box-shadow:0 0 0 18px rgba(198,255,46,0);}}
+</style>
+</helmet>
+<div style="display:flex;justify-content:center;background:#050506;">
+<div style="max-width:1440px;width:100%;background:#0a0b0d;color:#e9edf2;font-family:'Archivo',sans-serif;position:relative;overflow:hidden;">
+
+  <!-- HERO -->
+  <div style="position:relative;height:820px;overflow:hidden;">
+    <img src="assets/mma/hero.png" alt="Damon Rivera in fighting stance" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right 15%;">
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,11,13,.94) 0%,rgba(10,11,13,.55) 45%,rgba(10,11,13,.15) 100%);"></div>
+    <div style="position:absolute;left:0;top:0;bottom:0;width:10px;background:#c6ff2e;"></div>
+    <div style="position:absolute;right:0;top:120px;width:420px;height:6px;background:#ff3b3b;transform:skewX(-24deg);opacity:.9;"></div>
+    <div style="position:absolute;right:60px;top:150px;width:300px;height:4px;background:#c6ff2e;transform:skewX(-24deg);opacity:.8;"></div>
+    <div style="position:absolute;right:120px;top:174px;width:180px;height:3px;background:#ffffff;transform:skewX(-24deg);opacity:.4;"></div>
+    <div style="position:absolute;left:72px;bottom:88px;max-width:900px;">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">
+        <span style="background:#ff3b3b;color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:16px;letter-spacing:3px;padding:5px 12px;text-transform:uppercase;">MMA · Lightweight 155 LBS</span>
+        <span style="border:1px solid #2a2f38;color:#8b93a0;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:16px;letter-spacing:3px;padding:5px 12px;text-transform:uppercase;">UWF Champion</span>
+      </div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:26px;letter-spacing:6px;color:#c6ff2e;text-transform:uppercase;margin-bottom:2px;">"Blackout"</div>
+      <h1 style="font-family:'Anton',sans-serif;font-weight:400;font-size:168px;line-height:.82;letter-spacing:-2px;margin:0;text-transform:uppercase;color:#fff;text-shadow:0 6px 40px rgba(0,0,0,.6);">DAMON<br><span style="color:#c6ff2e;">RIVERA</span></h1>
+      <p style="font-family:'Barlow Condensed',sans-serif;font-size:24px;letter-spacing:2px;color:#c3cad4;max-width:620px;margin:26px 0 34px;text-transform:uppercase;">19 wins. 17 finishes. Zero minutes wasted. Watch the lights go out.</p>
+      <div style="display:flex;gap:16px;align-items:center;">
+        <a href="#" style="display:inline-flex;align-items:center;gap:12px;background:#c6ff2e;color:#0a0b0d;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:22px;letter-spacing:2px;text-transform:uppercase;padding:18px 34px;clip-path:polygon(0 0,100% 0,92% 100%,0% 100%);">▶ Watch Highlights</a>
+        <a href="#" style="display:inline-flex;align-items:center;gap:10px;background:transparent;border:2px solid #ff3b3b;color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:22px;letter-spacing:2px;text-transform:uppercase;padding:16px 30px;">Subscribe →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MEDIA CHANNELS BAR -->
+  <div style="background:#0e1116;border-top:3px solid #c6ff2e;padding:36px 60px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:22px;">
+      <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#fff;">Follow The Fight</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#c6ff2e;">11.1M+ FOLLOWERS</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px;">
+      <a href="#" style="background:#14181e;border-top:3px solid #ff3b3b;padding:22px;" style-hover="background:#1a1f27;transform:translateY(-4px);"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#fff;">YouTube</div><div style="font-family:'Anton',sans-serif;font-size:34px;color:#c6ff2e;margin-top:8px;">1.2M</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;margin-top:4px;">SUBSCRIBE ↗</div></a>
+      <a href="#" style="background:#14181e;border-top:3px solid #c6ff2e;padding:22px;" style-hover="background:#1a1f27;transform:translateY(-4px);"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#fff;">Instagram</div><div style="font-family:'Anton',sans-serif;font-size:34px;color:#c6ff2e;margin-top:8px;">3.4M</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;margin-top:4px;">FOLLOW ↗</div></a>
+      <a href="#" style="background:#14181e;border-top:3px solid #ff3b3b;padding:22px;" style-hover="background:#1a1f27;transform:translateY(-4px);"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#fff;">TikTok</div><div style="font-family:'Anton',sans-serif;font-size:34px;color:#c6ff2e;margin-top:8px;">5.1M</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;margin-top:4px;">FOLLOW ↗</div></a>
+      <a href="#" style="background:#14181e;border-top:3px solid #c6ff2e;padding:22px;" style-hover="background:#1a1f27;transform:translateY(-4px);"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#fff;">Twitch</div><div style="font-family:'Anton',sans-serif;font-size:34px;color:#c6ff2e;margin-top:8px;">480K</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;margin-top:4px;">WATCH LIVE ↗</div></a>
+      <a href="#" style="background:#14181e;border-top:3px solid #ff3b3b;padding:22px;" style-hover="background:#1a1f27;transform:translateY(-4px);"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#fff;">X</div><div style="font-family:'Anton',sans-serif;font-size:34px;color:#c6ff2e;margin-top:8px;">890K</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;margin-top:4px;">FOLLOW ↗</div></a>
+    </div>
+  </div>
+
+  <!-- FEATURED HIGHLIGHT -->
+  <div style="padding:64px 60px;background:#0a0b0d;">
+    <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:26px;">
+      <span style="width:34px;height:4px;background:#ff3b3b;display:inline-block;"></span>
+      <h2 style="font-family:'Anton',sans-serif;font-size:46px;letter-spacing:-1px;text-transform:uppercase;margin:0;color:#fff;">Featured Reel</h2>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#7a828e;">2026 KNOCKOUT TRAILER</span>
+    </div>
+    <div style="position:relative;aspect-ratio:16/9;background:repeating-linear-gradient(135deg,#101317,#101317 16px,#0d0f13 16px,#0d0f13 32px);overflow:hidden;clip-path:polygon(0 0,100% 0,100% 92%,0 100%);">
+      <img src="assets/mma/featured.png" alt="Damon Rivera in-cage action" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+      <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,11,13,.85),transparent 55%);"></div>
+      <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:110px;height:110px;border-radius:50%;background:#c6ff2e;display:flex;align-items:center;justify-content:center;animation:pulseGlow 2.4s infinite;"><div style="width:0;height:0;border-style:solid;border-width:22px 0 22px 38px;border-color:transparent transparent transparent #0a0b0d;margin-left:8px;"></div></div>
+      <div style="position:absolute;left:34px;bottom:30px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;letter-spacing:1px;text-transform:uppercase;color:#fff;">Road to UWF 302 — Full Camp</div><div style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#c6ff2e;margin-top:6px;">12:48 · 2.4M VIEWS</div></div>
+    </div>
+  </div>
+
+  <!-- VIDEO LIBRARY -->
+  <div style="padding:20px 60px 64px;background:#0a0b0d;">
+    <h2 style="font-family:'Anton',sans-serif;font-size:46px;letter-spacing:-1px;text-transform:uppercase;margin:0 0 8px;color:#fff;">Video Library</h2>
+    <p style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#7a828e;margin:0 0 34px;">STREAMS · INTERVIEWS · TRAINING</p>
+
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;"><span style="width:12px;height:12px;background:#ff3b3b;"></span><h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;letter-spacing:3px;text-transform:uppercase;margin:0;color:#fff;">Streams</h3></div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:44px;">
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/stream-1.png" alt="Fight Night Watch Party" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Fight Night Watch Party</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">1:42:10 · 312K VIEWS</div></div></a>
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/stream-2.png" alt="Gaming w/ The Squad" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Gaming w/ The Squad</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">2:05:33 · 198K VIEWS</div></div></a>
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/stream-3.png" alt="Weigh-In Live Q&amp;A" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Weigh-In Live Q&amp;A</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">58:21 · 421K VIEWS</div></div></a>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;"><span style="width:12px;height:12px;background:#c6ff2e;"></span><h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;letter-spacing:3px;text-transform:uppercase;margin:0;color:#fff;">Interviews</h3></div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:44px;">
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/interview-1.png" alt="Post-Fight Presser" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Post-Fight Presser</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">18:04 · 890K VIEWS</div></div></a>
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/interview-2.png" alt="Sit-Down: The Comeback" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Sit-Down: The Comeback</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">24:37 · 1.1M VIEWS</div></div></a>
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/interview-3.png" alt="Media Day Scrum" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Media Day Scrum</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">09:12 · 254K VIEWS</div></div></a>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;"><span style="width:12px;height:12px;background:#ff3b3b;"></span><h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;letter-spacing:3px;text-transform:uppercase;margin:0;color:#fff;">Training</h3></div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;">
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/training-1.png" alt="5AM Roadwork" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">5AM Roadwork</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">14:55 · 176K VIEWS</div></div></a>
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/training-2.png" alt="Pad Work &amp; Combos" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Pad Work &amp; Combos</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">21:08 · 333K VIEWS</div></div></a>
+      <a href="#" style="background:#101317;"><div style="position:relative;aspect-ratio:16/9;overflow:hidden;"><img src="assets/mma/training-3.png" alt="Sparring Sessions" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="padding:14px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:18px;color:#e9edf2;text-transform:uppercase;">Sparring Sessions</div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a828e;margin-top:6px;">31:44 · 402K VIEWS</div></div></a>
+    </div>
+  </div>
+
+  <!-- TALE OF THE TAPE -->
+  <div style="padding:64px 60px;background:#0e1116;border-top:3px solid #ff3b3b;">
+    <h2 style="font-family:'Anton',sans-serif;font-size:46px;letter-spacing:-1px;text-transform:uppercase;margin:0 0 30px;color:#fff;">Tale of the Tape</h2>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:18px;">
+      <div style="background:#0a0b0d;padding:26px;border-left:4px solid #c6ff2e;"><div style="font-family:'Anton',sans-serif;font-size:60px;line-height:1;color:#c6ff2e;">19-2-0</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:16px;letter-spacing:3px;text-transform:uppercase;color:#8b93a0;margin-top:8px;">Win — Loss — Draw</div></div>
+      <div style="background:#0a0b0d;padding:26px;border-left:4px solid #ff3b3b;"><div style="font-family:'Anton',sans-serif;font-size:60px;line-height:1;color:#fff;">12</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:16px;letter-spacing:3px;text-transform:uppercase;color:#8b93a0;margin-top:8px;">KO / TKO</div></div>
+      <div style="background:#0a0b0d;padding:26px;border-left:4px solid #c6ff2e;"><div style="font-family:'Anton',sans-serif;font-size:60px;line-height:1;color:#fff;">5</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:16px;letter-spacing:3px;text-transform:uppercase;color:#8b93a0;margin-top:8px;">Submissions</div></div>
+      <div style="background:#0a0b0d;padding:26px;border-left:4px solid #ff3b3b;"><div style="font-family:'Anton',sans-serif;font-size:60px;line-height:1;color:#fff;">89%</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:16px;letter-spacing:3px;text-transform:uppercase;color:#8b93a0;margin-top:8px;">Finish Rate</div></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;">
+      <div style="background:#0a0b0d;padding:22px;"><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;letter-spacing:1px;">HEIGHT</div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:30px;color:#fff;">5'10" · 178cm</div></div>
+      <div style="background:#0a0b0d;padding:22px;"><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;letter-spacing:1px;">REACH</div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:30px;color:#fff;">72" · 183cm</div></div>
+      <div style="background:#0a0b0d;padding:22px;"><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;letter-spacing:1px;">STANCE</div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:30px;color:#fff;">Orthodox</div></div>
+      <div style="background:#0a0b0d;padding:22px;"><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;letter-spacing:1px;">AGE / FROM</div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:30px;color:#fff;">28 · Miami, FL</div></div>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;">
+      <span style="background:#c6ff2e;color:#0a0b0d;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:16px;letter-spacing:2px;text-transform:uppercase;padding:8px 16px;">🏆 UWF Lightweight Champion</span>
+      <span style="border:1px solid #2a2f38;color:#c3cad4;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:16px;letter-spacing:2px;text-transform:uppercase;padding:8px 16px;">2× Fight of the Night</span>
+      <span style="border:1px solid #2a2f38;color:#c3cad4;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:16px;letter-spacing:2px;text-transform:uppercase;padding:8px 16px;">2024 Prospect of the Year</span>
+    </div>
+  </div>
+
+  <!-- UPCOMING EVENTS -->
+  <div style="padding:64px 60px;background:#0a0b0d;">
+    <h2 style="font-family:'Anton',sans-serif;font-size:46px;letter-spacing:-1px;text-transform:uppercase;margin:0 0 30px;color:#fff;">Fight Schedule</h2>
+    <div style="display:flex;flex-direction:column;gap:14px;">
+      <div style="display:grid;grid-template-columns:150px 1fr auto;align-items:center;gap:24px;background:#101317;border-left:4px solid #c6ff2e;padding:24px 28px;">
+        <div><div style="font-family:'Anton',sans-serif;font-size:40px;line-height:.9;color:#c6ff2e;">SEP 14</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;">2026</div></div>
+        <div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:28px;text-transform:uppercase;color:#fff;">vs. Tyrell "Hammer" Novak</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:17px;letter-spacing:1px;color:#8b93a0;text-transform:uppercase;">UWF 302 · T-Mobile Arena, Las Vegas</div></div>
+        <a href="#" style="background:#c6ff2e;color:#0a0b0d;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;letter-spacing:2px;text-transform:uppercase;padding:14px 26px;">Tickets ↗</a>
+      </div>
+      <div style="display:grid;grid-template-columns:150px 1fr auto;align-items:center;gap:24px;background:#101317;border-left:4px solid #2a2f38;padding:24px 28px;">
+        <div><div style="font-family:'Anton',sans-serif;font-size:40px;line-height:.9;color:#fff;">NOV 08</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;">2026</div></div>
+        <div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:28px;text-transform:uppercase;color:#fff;">vs. Andre Sokolov</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:17px;letter-spacing:1px;color:#8b93a0;text-transform:uppercase;">UWF 309 · The O2, London</div></div>
+        <a href="#" style="border:2px solid #c6ff2e;color:#c6ff2e;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;letter-spacing:2px;text-transform:uppercase;padding:12px 24px;">Watch ↗</a>
+      </div>
+      <div style="display:grid;grid-template-columns:150px 1fr auto;align-items:center;gap:24px;background:#101317;border-left:4px solid #2a2f38;padding:24px 28px;">
+        <div><div style="font-family:'Anton',sans-serif;font-size:40px;line-height:.9;color:#fff;">DEC 20</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;">2026</div></div>
+        <div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:28px;text-transform:uppercase;color:#fff;">Opponent TBA · Title Defense</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:17px;letter-spacing:1px;color:#8b93a0;text-transform:uppercase;">UWF 314 · Etihad Arena, Abu Dhabi</div></div>
+        <a href="#" style="border:2px solid #2a2f38;color:#c3cad4;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;letter-spacing:2px;text-transform:uppercase;padding:12px 24px;">Notify Me</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BIO -->
+  <div style="padding:64px 60px;background:#0e1116;">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:start;">
+      <div>
+        <h2 style="font-family:'Anton',sans-serif;font-size:46px;letter-spacing:-1px;text-transform:uppercase;margin:0 0 22px;color:#fff;">The Story</h2>
+        <p style="font-family:'Archivo',sans-serif;font-size:18px;line-height:1.7;color:#c3cad4;margin:0 0 16px;">Damon "Blackout" Rivera turned a scrappy Miami boxing gym into a launchpad for one of the most feared finishers in the lightweight division. Known for switching the lights out early, he blends counter-striking precision with a bottomless gas tank and a showman's flair that spills straight onto his streams.</p>
+        <p style="font-family:'Archivo',sans-serif;font-size:18px;line-height:1.7;color:#c3cad4;margin:0;">Off the canvas, Rivera has built a media machine — training vlogs, live gaming nights, and unfiltered interviews — turning fans into a movement 11 million strong.</p>
+      </div>
+      <div style="border-left:3px solid #c6ff2e;padding-left:26px;">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:20px;">Milestones</div>
+        <div style="display:flex;flex-direction:column;gap:18px;">
+          <div><div style="font-family:'Anton',sans-serif;font-size:22px;color:#c6ff2e;">2019</div><div style="font-family:'Archivo',sans-serif;font-size:16px;color:#c3cad4;">Turned pro — 5 straight first-round finishes.</div></div>
+          <div><div style="font-family:'Anton',sans-serif;font-size:22px;color:#c6ff2e;">2022</div><div style="font-family:'Archivo',sans-serif;font-size:16px;color:#c3cad4;">Signed to UWF; Debut Performance of the Night.</div></div>
+          <div><div style="font-family:'Anton',sans-serif;font-size:22px;color:#c6ff2e;">2025</div><div style="font-family:'Archivo',sans-serif;font-size:16px;color:#c3cad4;">Captured the UWF Lightweight title.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPONSORS -->
+  <div style="padding:48px 60px;background:#0a0b0d;border-top:1px solid #1a1f27;">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:3px;color:#7a828e;text-align:center;margin-bottom:26px;">BACKED BY</div>
+    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:16px;">
+      <div style="height:64px;display:flex;align-items:center;justify-content:center;border:1px solid #1a1f27;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;color:#5b6470;text-transform:uppercase;">VENOMEX</div>
+      <div style="height:64px;display:flex;align-items:center;justify-content:center;border:1px solid #1a1f27;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;color:#5b6470;text-transform:uppercase;">RAZR</div>
+      <div style="height:64px;display:flex;align-items:center;justify-content:center;border:1px solid #1a1f27;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;color:#5b6470;text-transform:uppercase;">IRONCLAD</div>
+      <div style="height:64px;display:flex;align-items:center;justify-content:center;border:1px solid #1a1f27;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;color:#5b6470;text-transform:uppercase;">APEX</div>
+      <div style="height:64px;display:flex;align-items:center;justify-content:center;border:1px solid #1a1f27;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;color:#5b6470;text-transform:uppercase;">NOVA BANK</div>
+      <div style="height:64px;display:flex;align-items:center;justify-content:center;border:1px solid #1a1f27;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:2px;color:#5b6470;text-transform:uppercase;">PULSE</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="padding:48px 60px;background:#0e1116;border-top:3px solid #c6ff2e;display:flex;justify-content:space-between;align-items:flex-start;gap:40px;">
+    <div><div style="font-family:'Anton',sans-serif;font-size:32px;color:#fff;text-transform:uppercase;">DAMON RIVERA</div><div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7a828e;margin-top:8px;">© 2026 · ALL RIGHTS RESERVED</div></div>
+    <div style="display:flex;gap:56px;">
+      <div style="display:flex;flex-direction:column;gap:10px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;letter-spacing:2px;text-transform:uppercase;color:#c6ff2e;">Watch</div><a href="#" style="font-family:'Archivo',sans-serif;font-size:15px;color:#8b93a0;">YouTube</a><a href="#" style="font-family:'Archivo',sans-serif;font-size:15px;color:#8b93a0;">Twitch</a><a href="#" style="font-family:'Archivo',sans-serif;font-size:15px;color:#8b93a0;">TikTok</a></div>
+      <div style="display:flex;flex-direction:column;gap:10px;"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;letter-spacing:2px;text-transform:uppercase;color:#c6ff2e;">Booking</div><a href="#" style="font-family:'Archivo',sans-serif;font-size:15px;color:#8b93a0;">Management</a><a href="#" style="font-family:'Archivo',sans-serif;font-size:15px;color:#8b93a0;">Sponsorships</a><a href="#" style="font-family:'Archivo',sans-serif;font-size:15px;color:#8b93a0;">Press Kit</a></div>
+    </div>
+  </div>
+
+  <!-- ===== IMAGE ASSET GUIDE (utility — delete before publishing) ===== -->
+  <div style="padding:40px 60px;background:#000;border-top:2px dashed #c6ff2e;font-family:'JetBrains Mono',monospace;color:#9aa3ad;">
+    <div style="font-size:14px;letter-spacing:2px;color:#c6ff2e;margin-bottom:14px;">▸ IMAGE ASSET GUIDE — for local image agent (remove before publishing)</div>
+    <div style="font-size:13px;line-height:1.9;">
+      <b style="color:#e9edf2;">Treatment:</b> high-contrast duotone or heavy-shadow sports photography, cool rim-light, dark background. Fighter isolated where possible.<br>
+      <b style="color:#e9edf2;">hero.jpg</b> — ~1000×1400 vertical. Full-body fighter in stance or intense close-up, gritty. Sits left, needs dark negative space on the right for the name.<br>
+      <b style="color:#e9edf2;">featured.jpg</b> — 1920×1080 (16:9). Dramatic in-cage / walkout action for the trailer card.<br>
+      <b style="color:#e9edf2;">stream-1..3.jpg</b> — 1280×720. Watch-party desk cam, gaming setup, weigh-in stream still.<br>
+      <b style="color:#e9edf2;">interview-1..3.jpg</b> — 1280×720. Press conference, sit-down studio interview, media scrum.<br>
+      <b style="color:#e9edf2;">training-1..3.jpg</b> — 1280×720. Roadwork/running, pad work in gym, sparring in cage.
+    </div>
+  </div>
+
+</div>
+</div>
+</x-dc>
+</body>
+</html>
